@@ -13,7 +13,7 @@ int main()
 	map< int, vector<int> >a;     //关键步骤
 	int i, j;
 	int m;
-	for (i = 1; i<=n; i++)
+	for (i = 1; i<=n; i++)        //注意，这里是从1开始，想想原因
 	{
 		cin >> love;
 		a[love].push_back(i);
